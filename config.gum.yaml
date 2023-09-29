@@ -1,0 +1,4 @@
+#ddev-generated
+webimage_extra_packages: [gum]
+web_environment:
+  - COLORTERM=${COLORTERM}

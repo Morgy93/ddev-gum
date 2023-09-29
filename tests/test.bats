@@ -1,9 +1,9 @@
 setup() {
   set -eu -o pipefail
   export DIR="$( cd "$( dirname "$BATS_TEST_FILENAME" )" >/dev/null 2>&1 && pwd )/.."
-  export TESTDIR=~/tmp/ddev-gum
+  export TESTDIR=~/tmp/tes-gum
   mkdir -p $TESTDIR
-  export PROJNAME=ddev-gum
+  export PROJNAME=test-gum
   export DDEV_ADDON=Morgy93/ddev-gum
   export DDEV_NON_INTERACTIVE=true
   ddev delete -Oy ${PROJNAME} >/dev/null 2>&1 || true
