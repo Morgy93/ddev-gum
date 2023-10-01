@@ -2,5 +2,5 @@ name: gum
 
 project_files:
 - commands/web/gum
-- web-build/pre.Dockerfile.gum
 - config.gum.yaml
+- web-build/pre.Dockerfile.gum
