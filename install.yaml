@@ -1,5 +1,6 @@
-name: ddev-gum
+name: gum
 
 project_files:
 - commands/web/gum
-- web-build/Dockerfile.ddev-gum
+- config.gum.yaml
+- web-build/pre.Dockerfile.gum
