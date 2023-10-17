@@ -14,7 +14,7 @@
 
 > A tool for glamorous shell scripts. Leverage the power of [Bubbles](https://github.com/charmbracelet/bubbles) and [Lip Gloss](https://github.com/charmbracelet/lipgloss) in your scripts and aliases without writing any Go code!
 >
-> <img alt="Shell running the ./demo.sh script" width="600" src="https://stuff.charm.sh/gum/demo.gif">
+> <img alt="Shell running the ./demo.sh script" width="600" src="https://camo.githubusercontent.com/f820a22f7574d55e1d9ccd3bfb0d8c337811ff05ea07d8d4b504dd0dc09ee24e/68747470733a2f2f73747566662e636861726d2e73682f67756d2f64656d6f2e676966">
 
 For more information, see the [official repository](https://github.com/charmbracelet/gum) or visit <https://charm.sh/>.
 
