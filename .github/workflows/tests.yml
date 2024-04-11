@@ -2,10 +2,10 @@ name: tests
 on:
   pull_request:
   push:
-    branches: [ main ]
+    branches: [main]
 
   schedule:
-  - cron: '25 08 * * *'
+    - cron: "25 08 * * *"
 
   workflow_dispatch:
     inputs:
@@ -15,9 +15,9 @@ on:
         required: false
         default: false
 
-# This is required for "gautamkrishnar/keepalive-workflow"
+# This is required for "gautamkrishnar/keepalive-workflow", see "ddev/github-action-add-on-test"
 permissions:
-  contents: write
+  actions: write
 
 jobs:
   tests:
@@ -29,7 +29,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: ddev/github-action-add-on-test@v1
+      - uses: ddev/github-action-add-on-test@v2
         with:
           ddev_version: ${{ matrix.ddev_version }}
           token: ${{ secrets.GITHUB_TOKEN }}
