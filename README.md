@@ -24,8 +24,21 @@ YouTube Shorts: [Gum: Write Glamorous Shell Scripts](https://www.youtube.com/wat
 
 ## Installation
 
+For DDEV v1.23.5 or above run
+
 ```shell
-ddev get Morgy93/ddev-gum
+ddev add-on get orgy93/ddev-gum
+```
+
+For earlier versions of DDEV run
+
+```shell
+ddev get orgy93/ddev-gum
+```
+
+Then restart the project
+
+```shell
 ddev restart
 ```
 
